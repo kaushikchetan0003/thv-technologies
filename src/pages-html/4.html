@@ -1,0 +1,326 @@
+<style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid #E5E7EB;
+        }
+        .tech-card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(31, 41, 55, 0.08);
+        }
+        .bg-grid-subtle {
+            background-image: radial-gradient(#bdcabb 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+        .step-active .step-circle {
+            background-color: #006d31;
+            color: white;
+            box-shadow: 0 0 0 4px #F5FFF8;
+        }
+    </style>
+
+<!-- SECTION 1: HERO -->
+<section class="relative pt-32 pb-24 px-margin-desktop overflow-hidden">
+<div class="absolute inset-0 bg-grid-subtle opacity-10 -z-10"></div>
+<div class="max-w-container-max mx-auto text-center">
+<div class="inline-flex items-center px-4 py-2 rounded-full bg-primary-fixed/30 text-on-primary-fixed-variant mb-6">
+<span class="font-label-md text-label-md tracking-wider uppercase">Our Technologies</span>
+</div>
+<h1 class="font-display-lg text-display-lg max-w-4xl mx-auto mb-8 leading-tight">
+                Modern Technologies That Power <span class="text-primary-container">Business Growth</span>
+</h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-3xl mx-auto mb-12">
+                THV Technologies leverages cutting-edge frameworks, AI platforms, and cloud infrastructure to build secure, scalable, and high-performing digital solutions that drive measurable business outcomes.
+            </p>
+<div class="flex justify-center gap-4">
+<button class="px-8 py-4 bg-primary text-on-primary rounded-xl font-label-md hover:shadow-lg transition-all active:scale-95">View Ecosystem</button>
+<button class="px-8 py-4 border-2 border-primary text-primary rounded-xl font-label-md hover:bg-primary-fixed/10 transition-all">Our Process</button>
+</div>
+</div>
+</section>
+<!-- SECTION 2: TECHNOLOGY GRID -->
+<section class="py-24 px-margin-desktop bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto">
+<div class="mb-16">
+<h2 class="font-headline-lg text-headline-lg mb-4">Our Technology Stack</h2>
+<div class="h-1 w-24 bg-primary-container"></div>
+</div>
+<!-- Categories -->
+<div class="space-y-16">
+<!-- Frontend -->
+<div>
+<h3 class="font-headline-md text-headline-md mb-8 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">web</span> Frontend Development
+                    </h3>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-gutter">
+<!-- Tech Cards -->
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300 group">
+<div class="w-12 h-12 mb-4 flex items-center justify-center bg-surface-container rounded-lg">
+<span class="material-symbols-outlined text-primary text-3xl">javascript</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">React</h4>
+<p class="text-secondary text-sm">Dynamic UI components and efficient rendering logic.</p>
+</div>
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<div class="w-12 h-12 mb-4 flex items-center justify-center bg-surface-container rounded-lg text-primary text-3xl">
+<span class="material-symbols-outlined">html</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">Next.js</h4>
+<p class="text-secondary text-sm">Server-side rendering for optimal SEO and performance.</p>
+</div>
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<div class="w-12 h-12 mb-4 flex items-center justify-center bg-surface-container rounded-lg text-primary text-3xl">
+<span class="material-symbols-outlined">css</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">Tailwind CSS</h4>
+<p class="text-secondary text-sm">Utility-first styling for consistent, modern interfaces.</p>
+</div>
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<div class="w-12 h-12 mb-4 flex items-center justify-center bg-surface-container rounded-lg text-primary text-3xl">
+<span class="material-symbols-outlined">palette</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">HTML5/CSS3</h4>
+<p class="text-secondary text-sm">Semantic structures and responsive design foundations.</p>
+</div>
+</div>
+</div>
+<!-- Backend & Database -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<div>
+<h3 class="font-headline-md text-headline-md mb-8 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">dns</span> Backend &amp; Databases
+                        </h3>
+<div class="grid grid-cols-2 gap-gutter">
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<h4 class="font-label-md text-label-md mb-2">Node.js</h4>
+<p class="text-secondary text-sm">High-speed server environments using JavaScript engines.</p>
+</div>
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<h4 class="font-label-md text-label-md mb-2">Python &amp; Django</h4>
+<p class="text-secondary text-sm">Secure and scalable web frameworks for complex logic.</p>
+</div>
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<h4 class="font-label-md text-label-md mb-2">PostgreSQL</h4>
+<p class="text-secondary text-sm">Enterprise-grade relational database management.</p>
+</div>
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<h4 class="font-label-md text-label-md mb-2">Firebase</h4>
+<p class="text-secondary text-sm">Real-time data syncing and serverless infrastructure.</p>
+</div>
+</div>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md mb-8 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">cloud</span> Cloud &amp; AI
+                        </h3>
+<div class="grid grid-cols-2 gap-gutter">
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<h4 class="font-label-md text-label-md mb-2">AWS / GCP</h4>
+<p class="text-secondary text-sm">Global cloud infrastructure with infinite scalability.</p>
+</div>
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<h4 class="font-label-md text-label-md mb-2">OpenAI / Gemini</h4>
+<p class="text-secondary text-sm">Integration of LLMs for intelligent automation.</p>
+</div>
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<h4 class="font-label-md text-label-md mb-2">Docker</h4>
+<p class="text-secondary text-sm">Containerization for consistent deployment cycles.</p>
+</div>
+<div class="glass-card tech-card-hover p-6 rounded-xl transition-all duration-300">
+<h4 class="font-label-md text-label-md mb-2">LangChain</h4>
+<p class="text-secondary text-sm">Chaining AI workflows for complex reasoning tasks.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Automation & Marketing -->
+<div>
+<h3 class="font-headline-md text-headline-md mb-8 flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">automation</span> Automation &amp; Growth
+                    </h3>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-gutter">
+<div class="glass-card tech-card-hover p-4 rounded-xl text-center">
+<div class="font-label-md text-label-md">Zapier</div>
+</div>
+<div class="glass-card tech-card-hover p-4 rounded-xl text-center">
+<div class="font-label-md text-label-md">Make.com</div>
+</div>
+<div class="glass-card tech-card-hover p-4 rounded-xl text-center">
+<div class="font-label-md text-label-md">HubSpot</div>
+</div>
+<div class="glass-card tech-card-hover p-4 rounded-xl text-center">
+<div class="font-label-md text-label-md">G. Analytics</div>
+</div>
+<div class="glass-card tech-card-hover p-4 rounded-xl text-center">
+<div class="font-label-md text-label-md">Meta Ads</div>
+</div>
+<div class="glass-card tech-card-hover p-4 rounded-xl text-center">
+<div class="font-label-md text-label-md">n8n</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: PROCESS -->
+<section class="py-24 px-margin-desktop bg-surface">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-20">
+<h2 class="font-display-lg-mobile text-display-lg-mobile md:text-headline-lg mb-4">How We Deliver Successful Projects</h2>
+<p class="text-secondary max-w-2xl mx-auto">Our structured development cycle ensures precision, transparency, and high-quality results from day one.</p>
+</div>
+<div class="relative">
+<!-- Timeline Line -->
+<div class="absolute top-10 left-0 w-full h-1 bg-surface-variant hidden md:block">
+<div class="h-full bg-primary transition-all duration-1000" style="width: 85.7%"></div>
+</div>
+<!-- Steps -->
+<div class="grid grid-cols-1 md:grid-cols-7 gap-gutter relative">
+<!-- Step 1 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 rounded-full flex items-center justify-center bg-surface-container-high text-primary mb-6 border-4 border-background transition-all group-hover:scale-110 z-10 step-active">
+<span class="material-symbols-outlined text-3xl">search</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">Discovery</h4>
+<p class="text-xs text-secondary px-2">Auditing goals and understanding user needs.</p>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 rounded-full flex items-center justify-center bg-surface-container-high text-primary mb-6 border-4 border-background transition-all group-hover:scale-110 z-10 step-active">
+<span class="material-symbols-outlined text-3xl">event_note</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">Planning</h4>
+<p class="text-xs text-secondary px-2">Mapping technical architecture and timelines.</p>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 rounded-full flex items-center justify-center bg-surface-container-high text-primary mb-6 border-4 border-background transition-all group-hover:scale-110 z-10 step-active">
+<span class="material-symbols-outlined text-3xl">brush</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">UI/UX Design</h4>
+<p class="text-xs text-secondary px-2">Visualizing the interface and user journey.</p>
+</div>
+<!-- Step 4 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 rounded-full flex items-center justify-center bg-surface-container-high text-primary mb-6 border-4 border-background transition-all group-hover:scale-110 z-10 step-active">
+<span class="material-symbols-outlined text-3xl">code</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">Development</h4>
+<p class="text-xs text-secondary px-2">Writing clean, modular, and scalable code.</p>
+</div>
+<!-- Step 5 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 rounded-full flex items-center justify-center bg-surface-container-high text-primary mb-6 border-4 border-background transition-all group-hover:scale-110 z-10 step-active">
+<span class="material-symbols-outlined text-3xl">checklist</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">Testing</h4>
+<p class="text-xs text-secondary px-2">Rigorous QA for performance and security.</p>
+</div>
+<!-- Step 6 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 rounded-full flex items-center justify-center bg-surface-container-high text-primary mb-6 border-4 border-background transition-all group-hover:scale-110 z-10 step-active">
+<span class="material-symbols-outlined text-3xl">rocket_launch</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">Deployment</h4>
+<p class="text-xs text-secondary px-2">Launching to production and cloud scaling.</p>
+</div>
+<!-- Step 7 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 rounded-full flex items-center justify-center bg-surface-container-high text-primary mb-6 border-4 border-background transition-all group-hover:scale-110 z-10">
+<span class="material-symbols-outlined text-3xl">support_agent</span>
+</div>
+<h4 class="font-label-md text-label-md mb-2">Support</h4>
+<p class="text-xs text-secondary px-2">Ongoing maintenance and optimization.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: WHY OUR STACK -->
+<section class="py-24 px-margin-desktop overflow-hidden">
+<div class="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<!-- Left: Animation/Illustration -->
+<div class="relative h-[600px] rounded-3xl overflow-hidden shadow-2xl">
+
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/40 to-transparent"></div>
+<div class="absolute bottom-8 left-8 right-8 text-on-primary">
+<p class="font-headline-md text-headline-md mb-2">Performance First</p>
+<p class="opacity-90">Our technology choices are guided by one metric: your business growth.</p>
+</div>
+</div>
+<!-- Right: Content -->
+<div>
+<h2 class="font-display-lg-mobile text-display-lg-mobile md:text-headline-lg mb-6">Powerful Technologies For Long-Term Success</h2>
+<p class="text-body-lg text-secondary mb-10">
+                    We don't just build websites; we build ecosystems. Our stack is chosen for its ability to evolve alongside your company, ensuring your digital investment remains a competitive advantage for years to come.
+                </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="flex gap-4 p-4 border border-outline-variant rounded-xl hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary" data-weight="fill">shield_with_heart</span>
+<div>
+<h4 class="font-label-md text-label-md">Secure Architecture</h4>
+<p class="text-xs text-secondary">Zero-trust security models.</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 border border-outline-variant rounded-xl hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary" data-weight="fill">speed</span>
+<div>
+<h4 class="font-label-md text-label-md">High Performance</h4>
+<p class="text-xs text-secondary">Optimized for sub-second loads.</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 border border-outline-variant rounded-xl hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary" data-weight="fill">troubleshoot</span>
+<div>
+<h4 class="font-label-md text-label-md">SEO Friendly</h4>
+<p class="text-xs text-secondary">Born for search engine rankings.</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 border border-outline-variant rounded-xl hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary" data-weight="fill">cloud_done</span>
+<div>
+<h4 class="font-label-md text-label-md">Cloud Ready</h4>
+<p class="text-xs text-secondary">Cloud-native infrastructure.</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 border border-outline-variant rounded-xl hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary" data-weight="fill">expand</span>
+<div>
+<h4 class="font-label-md text-label-md">Scalable Infrastructure</h4>
+<p class="text-xs text-secondary">Grows with your user base.</p>
+</div>
+</div>
+<div class="flex gap-4 p-4 border border-outline-variant rounded-xl hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-primary" data-weight="fill">psychology</span>
+<div>
+<h4 class="font-label-md text-label-md">AI Powered</h4>
+<p class="text-xs text-secondary">Automated business workflows.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: CTA -->
+<section class="py-24 px-margin-desktop">
+<div class="max-w-container-max mx-auto bg-gradient-to-br from-primary-container/10 to-primary/5 rounded-[40px] p-16 text-center border border-primary-container/20 overflow-hidden relative">
+<!-- Atmospheric background element -->
+<div class="absolute -right-20 -top-20 w-80 h-80 bg-primary/10 blur-[100px] rounded-full"></div>
+<div class="absolute -left-20 -bottom-20 w-80 h-80 bg-primary-container/20 blur-[100px] rounded-full"></div>
+<div class="relative z-10">
+<h2 class="font-display-lg text-display-lg mb-6">Let's Build Your Next Digital Success Story</h2>
+<p class="font-body-lg text-body-lg text-secondary mb-12 max-w-2xl mx-auto">
+                    Ready to leverage world-class technology for your business? Contact our engineering team for a technical feasibility study.
+                </p>
+<div class="flex flex-wrap justify-center gap-6">
+<button class="px-10 py-5 bg-primary text-on-primary rounded-2xl font-label-md text-lg hover:shadow-xl hover:-translate-y-1 transition-all active:scale-95 flex items-center gap-2">
+                        Start Your Project <span class="material-symbols-outlined">trending_flat</span>
+</button>
+<button class="px-10 py-5 bg-on-surface text-on-primary rounded-2xl font-label-md text-lg hover:shadow-xl hover:-translate-y-1 transition-all active:scale-95 flex items-center gap-2">
+                        Schedule Free Consultation <span class="material-symbols-outlined">calendar_today</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+
