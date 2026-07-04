@@ -1,0 +1,221 @@
+<style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9ff;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .hero-gradient {
+      background: radial-gradient(circle at 70% 30%, #f5fff8 0%, #ffffff 100%);
+    }
+    .network-pattern {
+      background-image: radial-gradient(#55c271 0.5px, transparent 0.5px);
+      background-size: 24px 24px;
+      opacity: 0.1;
+    }
+  </style>
+
+<!-- Top Info Bar -->
+<div class="bg-on-surface text-surface-container-lowest py-2 px-margin-desktop hidden lg:block border-b border-outline/20">
+<div class="max-w-container-max mx-auto flex justify-between items-center font-label-md text-label-md opacity-90">
+<div class="flex gap-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span>+1 (800) 555-0199</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+<span>contact@thvtechnologies.com</span>
+</div>
+</div>
+<div class="font-medium tracking-wide">
+        Leading Digital Marketing, Web Development &amp; AI Solutions Company
+      </div>
+</div>
+</div>
+<!-- Header / TopNavBar -->
+<header class="fixed top-0 lg:top-10 left-0 w-full z-50 px-margin-mobile lg:px-margin-desktop transition-all duration-300">
+<nav class="max-w-container-max mx-auto h-20 bg-surface-container-lowest/80 dark:bg-on-surface/80 backdrop-blur-lg border-b border-outline-variant dark:border-outline shadow-sm rounded-2xl flex justify-between items-center px-8">
+<!-- Brand Logo -->
+<div class="font-headline-md text-headline-md font-bold text-on-surface dark:text-inverse-on-surface flex items-center gap-2">
+<span class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">dataset</span>
+</span>
+        THV Technologies
+      </div>
+<!-- Navigation Links -->
+<div class="hidden lg:flex gap-8 items-center">
+<a class="text-primary dark:text-primary-fixed-dim font-bold border-b-2 border-primary dark:border-primary-fixed-dim pb-1 font-body-md text-body-md" href="/">Home</a>
+<a class="text-secondary dark:text-secondary-fixed-dim hover:text-primary dark:hover:text-primary-fixed-dim transition-colors font-body-md text-body-md" href="/services">Services</a>
+<a class="text-secondary dark:text-secondary-fixed-dim hover:text-primary dark:hover:text-primary-fixed-dim transition-colors font-body-md text-body-md" href="/technologies">Technologies</a>
+<a class="text-secondary dark:text-secondary-fixed-dim hover:text-primary dark:hover:text-primary-fixed-dim transition-colors font-body-md text-body-md" href="/portfolio">Portfolio</a>
+<a class="text-secondary dark:text-secondary-fixed-dim hover:text-primary dark:hover:text-primary-fixed-dim transition-colors font-body-md text-body-md" href="/about">About</a>
+<a class="text-secondary dark:text-secondary-fixed-dim hover:text-primary dark:hover:text-primary-fixed-dim transition-colors font-body-md text-body-md" href="/testimonials">Blog</a>
+</div>
+<!-- CTA -->
+<div class="flex items-center gap-4">
+<button class="bg-primary hover:bg-on-primary-fixed-variant text-on-primary px-6 py-2.5 rounded-full font-label-md text-label-md font-bold transition-all transform active:scale-95 shadow-lg shadow-primary/20">
+          Get Free Quote
+        </button>
+<button class="lg:hidden text-on-surface">
+<span class="material-symbols-outlined text-[32px]">menu</span>
+</button>
+</div>
+</nav>
+</header>
+<!-- Hero Section -->
+<main class="relative pt-32 lg:pt-48 pb-24 hero-gradient overflow-hidden min-h-[900px] flex items-center">
+<!-- Animated Network Pattern Background -->
+<div class="absolute inset-0 network-pattern"></div>
+<div class="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop relative z-10 w-full">
+<div class="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-gutter items-center">
+<!-- LEFT CONTENT -->
+<div class="flex flex-col gap-8">
+<!-- Badge -->
+<div class="inline-flex">
+<div class="bg-primary/10 border border-primary/20 text-primary px-4 py-1.5 rounded-full font-label-md text-label-md flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+              Digital Marketing • AI • Web Development
+            </div>
+</div>
+<!-- Headline -->
+<h1 class="font-display-lg text-display-lg text-on-surface leading-[1.1]">
+            Grow Your Business With Smart <span class="text-primary-container">Digital Marketing</span> &amp; <span class="text-primary-container">Technology Solutions</span>
+</h1>
+<!-- Description -->
+<p class="font-body-lg text-body-lg text-secondary max-w-xl">
+            THV Technologies helps businesses grow through digital marketing, SEO, paid ads, websites, branding and AI automation.
+          </p>
+<!-- Feature Cards (Bento Style) -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+<!-- Card 1 -->
+<div class="bg-white/60 p-5 rounded-2xl border border-outline-variant hover:shadow-md transition-all group">
+<div class="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-3 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">trending_up</span>
+</div>
+<h3 class="font-label-md text-label-md text-on-surface mb-1">SEO &amp; Digital Marketing</h3>
+<p class="text-[12px] text-secondary leading-snug">Data-driven strategies for growth.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-white/60 p-5 rounded-2xl border border-outline-variant hover:shadow-md transition-all group">
+<div class="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-3 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">terminal</span>
+</div>
+<h3 class="font-label-md text-label-md text-on-surface mb-1">Website Development</h3>
+<p class="text-[12px] text-secondary leading-snug">High-performance custom sites.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-white/60 p-5 rounded-2xl border border-outline-variant hover:shadow-md transition-all group">
+<div class="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-3 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined">smart_toy</span>
+</div>
+<h3 class="font-label-md text-label-md text-on-surface mb-1">AI Automation</h3>
+<p class="text-[12px] text-secondary leading-snug">Optimize workflows with AI.</p>
+</div>
+</div>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-6 mt-4">
+<button class="bg-primary hover:bg-on-primary-fixed-variant text-on-primary px-8 py-4 rounded-full font-label-md text-label-md font-bold transition-all shadow-xl shadow-primary/30 flex items-center gap-2">
+              Get Free Consultation
+              <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<a class="font-label-md text-label-md text-secondary hover:text-primary font-bold flex items-center gap-1 group transition-colors" href="#">
+              View Portfolio 
+              <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">trending_flat</span>
+</a>
+</div>
+</div>
+<!-- RIGHT CONTENT (Illustration) -->
+<div class="relative flex justify-center lg:justify-end">
+<div class="relative w-full max-w-[580px]">
+<!-- Main Illustration Image -->
+<img alt="Professional 3D rendering of a laptop showing an analytics dashboard surrounded by floating glass-style 3D icons like Instagram, Facebook, and Google Ads logo, with stylized green and silver bar charts rising on a clean white glossy surface." class="w-full h-auto drop-shadow-2xl rounded-3xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB--zeKacp_tQYgmiKhYQwAiAS-3bxQ1xEJVZf0Y-20ZiHS7w_Ak5tGgyA2SmSFOho1tBuhPlAnwd32qETUkTx8kelHHSUGW3vcAMviC8tJr0-gckpvB_3D_NqY1KTWO06B0AN7HfQ2LLAOeHf38JE5X8eF_aAWFt-9QRFqkm3khp22sPGsAEd5TA6kXi6v90F2uqcxiNNYjGBJtPEGvrf3D1MgrZlMAksVUJDA6K3mfzUR7mRBAauGW0NMmhIhBFHMuQia6W5Jv_U"/>
+<!-- Floating Glass Card 1 -->
+<div class="absolute -top-8 -left-8 glass-card p-6 rounded-3xl shadow-2xl flex items-center gap-4 animate-bounce duration-[3000ms]">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">groups</span>
+</div>
+<div>
+<div class="text-[20px] font-bold text-on-surface">500+</div>
+<div class="text-[12px] text-secondary font-medium uppercase tracking-wider">Businesses Grown</div>
+</div>
+</div>
+<!-- Floating Badge -->
+<div class="absolute bottom-10 -right-4 glass-card px-5 py-3 rounded-2xl shadow-xl flex items-center gap-3 border-l-4 border-primary">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="text-on-surface font-semibold text-label-md">Google Certified Experts</span>
+</div>
+<!-- Soft Glow Background Elements -->
+<div class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-primary/5 blur-[100px] rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-on-surface dark:bg-surface-container-lowest w-full">
+<div class="max-w-container-max mx-auto px-margin-desktop py-12 grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<!-- Brand & About -->
+<div class="flex flex-col gap-4">
+<div class="font-headline-md text-headline-md font-bold text-surface-container-lowest dark:text-on-surface flex items-center gap-2">
+<span class="w-8 h-8 bg-primary-container rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary-container" style="font-variation-settings: 'FILL' 1;">dataset</span>
+</span>
+          THV Technologies
+        </div>
+<p class="font-body-md text-body-md text-surface-variant opacity-70">
+          Transforming businesses through innovative digital solutions, data-driven marketing, and cutting-edge technology.
+        </p>
+</div>
+<!-- Quick Links -->
+<div class="flex flex-col gap-4">
+<h4 class="text-primary-fixed dark:text-primary font-semibold font-body-md">Company</h4>
+<div class="flex flex-col gap-2">
+<a class="text-surface-variant dark:text-secondary opacity-80 hover:opacity-100 transition-opacity font-body-md text-body-md" href="#">About Us</a>
+<a class="text-surface-variant dark:text-secondary opacity-80 hover:opacity-100 transition-opacity font-body-md text-body-md" href="/portfolio">Portfolio</a>
+<a class="text-surface-variant dark:text-secondary opacity-80 hover:opacity-100 transition-opacity font-body-md text-body-md" href="#">Careers</a>
+<a class="text-surface-variant dark:text-secondary opacity-80 hover:opacity-100 transition-opacity font-body-md text-body-md" href="/contact">Contact</a>
+</div>
+</div>
+<!-- Services -->
+<div class="flex flex-col gap-4">
+<h4 class="text-primary-fixed dark:text-primary font-semibold font-body-md">Services</h4>
+<div class="flex flex-col gap-2">
+<a class="text-surface-variant dark:text-secondary opacity-80 hover:opacity-100 transition-opacity font-body-md text-body-md" href="#">Digital Marketing</a>
+<a class="text-surface-variant dark:text-secondary opacity-80 hover:opacity-100 transition-opacity font-body-md text-body-md" href="#">Web Development</a>
+<a class="text-surface-variant dark:text-secondary opacity-80 hover:opacity-100 transition-opacity font-body-md text-body-md" href="#">AI Solutions</a>
+<a class="text-surface-variant dark:text-secondary opacity-80 hover:opacity-100 transition-opacity font-body-md text-body-md" href="#">Graphic Design</a>
+</div>
+</div>
+<!-- Legal & Newsletter -->
+<div class="flex flex-col gap-4">
+<h4 class="text-primary-fixed dark:text-primary font-semibold font-body-md">Legal</h4>
+<div class="flex flex-col gap-2 mb-4">
+<a class="text-surface-variant dark:text-secondary opacity-80 hover:opacity-100 transition-opacity font-body-md text-body-md" href="#">Privacy Policy</a>
+<a class="text-surface-variant dark:text-secondary opacity-80 hover:opacity-100 transition-opacity font-body-md text-body-md" href="#">Terms of Service</a>
+</div>
+<div class="bg-surface-container-high/10 p-4 rounded-xl">
+<div class="text-[12px] text-surface-container-lowest opacity-60 mb-2 uppercase tracking-tighter">Subscribe to Insights</div>
+<div class="flex gap-2">
+<input class="bg-white/10 border-none rounded-lg text-[14px] px-3 py-2 w-full text-white placeholder:text-white/40 focus:ring-1 focus:ring-primary-container" placeholder="Email" type="email"/>
+<button class="bg-primary-container text-on-primary-container p-2 rounded-lg">
+<span class="material-symbols-outlined text-[20px]">send</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Copyright -->
+<div class="border-t border-surface-variant/10 py-6 text-center">
+<p class="font-body-md text-body-md text-surface-variant opacity-60">
+        © 2024 THV Technologies. All rights reserved.
+      </p>
+</div>
+</footer>
+
