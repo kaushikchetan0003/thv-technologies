@@ -49,26 +49,30 @@
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
 <!-- Left: Form -->
 <div class="lg:col-span-7 bg-white p-10 rounded-[20px] shadow-sm border border-outline-variant/30">
-<form class="grid grid-cols-1 md:grid-cols-2 gap-6" onsubmit="event.preventDefault();">
+<form class="grid grid-cols-1 md:grid-cols-2 gap-6" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="d0b2eea7-9f9d-4b5c-9ccc-babd723f8a8c">
+    <input type="hidden" name="subject" value="New Lead from THV Technologies Website">
+    <input type="hidden" name="from_name" value="THV Technologies Website">
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
 <div class="space-y-2">
 <label class="font-label-md text-on-surface">Full Name</label>
-<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all" placeholder="John Doe" type="text"/>
+<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all" placeholder="John Doe" name="name" type="text"/>
 </div>
 <div class="space-y-2">
 <label class="font-label-md text-on-surface">Company Name</label>
-<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all" placeholder="TechCorp Inc." type="text"/>
+<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all" placeholder="TechCorp Inc." name="text" type="text"/>
 </div>
 <div class="space-y-2">
 <label class="font-label-md text-on-surface">Email Address</label>
-<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all" placeholder="john@example.com" type="email"/>
+<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all" placeholder="john@example.com" name="email" type="email"/>
 </div>
 <div class="space-y-2">
 <label class="font-label-md text-on-surface">Phone Number</label>
-<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all" placeholder="+1 (555) 000-0000" type="tel"/>
+<input class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all" placeholder="+1 (555) 000-0000" name="phone" type="tel"/>
 </div>
 <div class="space-y-2">
 <label class="font-label-md text-on-surface">Service Required</label>
-<select class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all bg-white">
+<select class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all bg-white" name="service" >
 <option>Select a service</option>
 <option>Digital Marketing</option>
 <option>SEO Optimization</option>
@@ -79,7 +83,7 @@
 </div>
 <div class="space-y-2">
 <label class="font-label-md text-on-surface">Project Budget</label>
-<select class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all bg-white">
+<select class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all bg-white" name="budget">
 <option>Select budget range</option>
 <option>$5k - $10k</option>
 <option>$10k - $25k</option>
@@ -92,9 +96,12 @@
 <textarea class="w-full px-4 py-3 rounded-xl border border-outline-variant/50 form-input-focus transition-all" placeholder="Tell us about your project goals..." rows="4"></textarea>
 </div>
 <div class="md:col-span-2 mt-4">
-<button class="w-full bg-primary text-on-primary py-4 rounded-xl font-headline-md hover:bg-primary-container transition-all shadow-md active:scale-[0.98]">
-                                Request Free Consultation
-                            </button>
+<button
+type="submit"
+class="w-full bg-primary text-on-primary py-4 rounded-xl font-headline-md hover:bg-primary-container transition-all shadow-md active:scale-[0.98]">
+Request Free Consultation
+</button>
+        
 </div>
 </form>
 </div>
